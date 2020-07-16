@@ -1,0 +1,15 @@
+.fascis {
+}
+
+.title {
+}
+
+.description {
+  width: 400px;
+}
+
+.portfolioImage {
+  height: 200px;
+  width: 300px;
+  justify-content: space-around;
+}

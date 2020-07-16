@@ -7,12 +7,16 @@ function Portfolio() {
 
   return (
     <>
-      <h2>Awesome Jude</h2>
-      <p className="introStatement">
-        Here is a bunch of stuff explaining my work in broad terms. Including
-        excitement level of interest in coding and in the field in general.
-      </p>
-
+      <div className="container">
+        <h2>Recent Projects</h2>
+        <p className="introStatement">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+          et quas molestias excepturi sint occaecati cupiditate non provident,
+          similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga.
+        </p>
+      </div>
       {examples.map((example) => {
         return <Display data={example} />;
       })}
