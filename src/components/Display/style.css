@@ -1,15 +1,34 @@
-.fascis {
+.portfolioCard {
+  display: flex;
+  /* background-color: dodgerblue; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 900px;
+  margin-bottom: 20px;
+  /* justify-content: flex-end; */
+}
+
+.description {
+  display: flex;
+  /* background-color: forestgreen; */
+  flex-flow: row wrap;
+  -ms-flex-align: flex-start;
+  justify-content: space-between;
 }
 
 .title {
 }
 
-.description {
-  width: 400px;
+.description > .narrative {
+  max-width: 585px;
+  /* margin-right: 15px; */
 }
 
-.portfolioImage {
+.description > .portfolioImage {
+}
+
+img {
   height: 200px;
   width: 300px;
-  justify-content: space-around;
+  float: right;
 }

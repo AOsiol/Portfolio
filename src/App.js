@@ -11,16 +11,18 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
+      {/* <div> */}
+      <Navbar />
+      <Wrapper>
+        <div className="container">
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
-        </Wrapper>
-        <Footer />
-      </div>
+        </div>
+      </Wrapper>
+      <Footer />
+      {/* </div> */}
     </Router>
   );
 }

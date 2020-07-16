@@ -6,21 +6,25 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/about">
-        Anthony
-      </a>
+      <div className="navSet">
+        <div className="navContainer">
+          <a className="navbar-brand" href="/about">
+            Anthony
+          </a>
 
-      <a className="nav-link" href="/about">
-        About
-      </a>
+          <a className="nav-link" href="/about">
+            About
+          </a>
 
-      <a className="nav-link" href="/resume">
-        Resume
-      </a>
+          <a className="nav-link" href="/resume">
+            Resume
+          </a>
 
-      <a className="nav-link" href="/portfolio">
-        Portfolio
-      </a>
+          <a className="nav-link" href="/portfolio">
+            Portfolio
+          </a>
+        </div>
+      </div>
     </nav>
   );
 }

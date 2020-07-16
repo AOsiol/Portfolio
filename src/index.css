@@ -1,11 +1,14 @@
-/* @media (min-width: 900px) {
+@media (min-width: 900px) {
   .container {
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
-    justify-content: center;
+    margin-left: 14%;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: lawngreen;
   }
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -23,8 +26,16 @@ div[data-reactroot] {
 
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* justify-content: flex-start; */
 }
 
 .introStatement {
   color: black;
+}
+
+.containerP {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* justify-content: flex-end; */
 }
