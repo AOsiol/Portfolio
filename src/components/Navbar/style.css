@@ -22,10 +22,10 @@
 
 .navSet {
   width: 900px;
-  background-color: indigo;
+  /* background-color: indigo; */
 }
 
 .navContainer {
   float: left;
-  background-color: goldenrod;
+  /* background-color: goldenrod; */
 }
