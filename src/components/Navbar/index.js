@@ -21,7 +21,7 @@ function Navbar() {
           </a>
 
           <a className="nav-link">
-            <Link to="/about">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </a>
         </div>
       </div>
