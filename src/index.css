@@ -54,6 +54,7 @@ h2 {
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: teal;
 }
 
@@ -61,10 +62,12 @@ h1 {
   display: flex;
   justify-content: center;
   color: red;
+  margin-bottom: -20px;
 }
 
 h4 {
   display: flex;
+  flex-basis: 75%;
 }
 /* Portfolio Page */
 .containerP {

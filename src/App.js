@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -12,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className="containerMain">
+        <Header />
         <Navbar />
         <Wrapper>
           <div className="container">
