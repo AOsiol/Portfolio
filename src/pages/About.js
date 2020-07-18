@@ -8,7 +8,7 @@ function About() {
 
         <h1>Hello, I'm Anthony Osiol</h1>
         <h4>
-          I am a web developer that who is excited to work on your next project.
+          I am a web developer that who is excited to create your next project.
         </h4>
         <div className="about"></div>
       </div>
