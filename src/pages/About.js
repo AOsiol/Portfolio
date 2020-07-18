@@ -3,28 +3,15 @@ import React from "react";
 function About() {
   return (
     <>
-      <h2>Anthony Osiol</h2>
-      <div className="about">
-        <p>
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga.
-        </p>
+      <div className="containerA">
+        {/* <img scr="https://wallpapertag.com/wallpaper/middle/b/7/1/388218-cool-green-backgrounds-1920x1080-1080p.jpg#.XxJjfrmVHgA.link"></img> */}
+
+        <h1>Hello, I'm Anthony Osiol</h1>
+        <h4>
+          I am a web developer that who is excited to work on your next project.
+        </h4>
+        <div className="about"></div>
       </div>
-      <div className="about">
-        <p>
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga.
-        </p>
-      </div>
-      {/* <img
-      src="./img/"
-      style="" */}
     </>
   );
 }

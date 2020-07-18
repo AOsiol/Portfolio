@@ -3,17 +3,30 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
-    margin-left: 14%;
-    /* justify-content: center; */
-    align-items: center;
-    /* background-color: lawngreen; */
+    /* margin-left: 14%; */
+    /* align-items: center; */
+    background-color: blue;
   }
 }
 
-* {
-  box-sizing: border-box;
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  /* flex-wrap: wrap; */
 }
 
+.image-back {
+  background-image: url("https://wallpapertag.com/wallpaper/middle/b/7/1/388218-cool-green-backgrounds-1920x1080-1080p.jpg#.XxJjfrmVHgA.link");
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 html,
 body,
 #root,
@@ -26,16 +39,37 @@ div[data-reactroot] {
 
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 
 .introStatement {
   color: black;
 }
 
+/* About Page */
+.containerA {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+h4 {
+  display: flex;
+}
+/* Portfolio Page */
 .containerP {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
-  /* justify-content: flex-end; */
 }
+
+/* Portfolio Page */
