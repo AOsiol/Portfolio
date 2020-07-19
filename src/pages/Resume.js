@@ -2,32 +2,26 @@ import React from "react";
 
 function Resume() {
   return (
-    <div>
-      <h4>Resume</h4>
-      <div>
-        <h5>Work</h5>
-        <ul>
-          <li>2020</li>
-        </ul>
+    <div className="containerR">
+      <div className="category">
+        <h4>Employment</h4>
       </div>
-      <div>
-        <h5>Education</h5>
-        <ul>
-          <li>
-            <p>2020</p>
-            <p>
-              Web Development Bootcamp University of Richmond, Richmond Virginia
-            </p>
-          </li>
-          <li>
-            <p>2019</p>
-            <p>Project Management Professional, 2567924</p>
-          </li>
-          <li>
-            <p>1999</p>
-            <p>BFA Virginia Commonwealth University, Richmond Virginia</p>
-          </li>
-        </ul>
+      <div className="category">
+        <h4>Education</h4>
+      </div>
+      <div className="answer">
+        <h2>University of Richmond</h2>
+        <p>Full Stack Web Development Certificate</p>
+
+        <h2>Virginia Commonwealth University</h2>
+        <p>BFA Painting and Printmaking</p>
+      </div>
+      <div className="category">
+        <h4>Certificate</h4>
+      </div>
+      <div className="answer">
+        <h2>Project Management Institute</h2>
+        <p>Project Management Professional, 2567924</p>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <Router>
-      <div className="containerMain">
+      <div className="containerMain image-back">
         <Header />
         <Navbar />
         <Wrapper>

@@ -3,9 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
-    /* margin-left: 14%; */
-    /* align-items: center; */
-    background-color: blue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
   }
 }
 
@@ -14,20 +13,15 @@
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
-
-  /* flex-wrap: wrap; */
+  flex-basis: 900px;
 }
 
-.image-back {
-  background-image: url("https://wallpapertag.com/wallpaper/middle/b/7/1/388218-cool-green-backgrounds-1920x1080-1080p.jpg#.XxJjfrmVHgA.link");
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+/* .image-back {
+  background: url(https://wallpapertag.com/wallpaper/middle/b/7/1/388218-cool-green-backgrounds-1920x1080-1080p.jpg#.XxJjfrmVHgA.link)
+    no-repeat center #eee;
+  background-size: cover;
+} */
+
 html,
 body,
 #root,
@@ -38,25 +32,17 @@ div[data-reactroot] {
   margin: 0;
 }
 
-h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  justify-content: flex-start;
-}
-
 .introStatement {
   color: black;
 }
 
 /* About Page */
 .containerA {
-  color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #aaa;
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: teal;
 }
 
 h1 {
@@ -73,6 +59,17 @@ h4 {
 
 /* Resume Page */
 .containerR {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+
+.category {
+  margin-right: 80px;
+}
+
+.answer {
+  margin-left: 100px;
 }
 
 /* Portfolio Page */

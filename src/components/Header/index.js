@@ -9,11 +9,18 @@ function Header() {
       <div className="header-contact">
         <div className="direct-contact">804.814.0932</div>
         <div className="icon">
-          <FaGithub />
+          <a target="_blank" href={"https://github.com/AOsiol"}>
+            <FaGithub />
+          </a>
         </div>
         <span>AO</span>
         <div className="icon">
-          <FaLinkedin />
+          <a
+            target="_blank"
+            href={"https://www.linkedin.com/in/anthony-osiol-pmp-643a206/"}
+          >
+            <FaLinkedin />
+          </a>
         </div>
         <div className="direct-contact">osiol.anthony@gmail.com</div>
       </div>
