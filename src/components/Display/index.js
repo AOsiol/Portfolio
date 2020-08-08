@@ -6,7 +6,9 @@ function Display(props) {
   return (
     <>
       <div className="portfolioCard">
-        <strong className="title">{props.data.title}</strong>
+        <a className="title" a target="_blank" href={props.data.github}>
+          {props.data.title}
+        </a>
         <div className="description">
           <div className="narrative">{props.data.description}</div>
           <div className="portfolioImage">

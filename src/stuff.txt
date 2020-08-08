@@ -1,0 +1,21 @@
+ {
+    "id": 4,
+    "title": "Burger Heaven",
+    "description": "You love burgers enough to think of them as a taste of heaven? Well, with this app you get a chance to create a holy burger and decide if it is worthy to be eaten or worthy to save and admire.",
+    "image": "../img/burger-heaven.png",
+    "link": "https://burger-heaven.herokuapp.com/"
+  }
+
+  "id": 6,
+    "title": "Hobnob",
+    "description": "Here is a picture of my cat \"Sorrell\" laying in the afternoon sun for you to enjoy.",
+    "image": "../img/hobnob.png",
+    "link": "https://hobnob-jatag.herokuapp.com/frontpage"
+  },
+
+   "id": 1,
+    "title": "Password Generator",
+    "description": "Create a random password! This app allows you to create a ramdomized password from 8 to up to 128 characters with option to include upper, lowercase, numbers and special characters. This app uses JavaScript to respond to the user input.",
+    "image": "../img/passWordGenerator.png",
+    "link": "https://aosiol.github.io/Password-Generator/",
+    "github": "https://github.com/AOsiol/Password-Generator"
