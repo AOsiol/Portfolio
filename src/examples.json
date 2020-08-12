@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "title": "Awesome Calendar",
+    "title": "Interactive Calendar",
     "description": "Here is an interactive calendar that helps you keep track of your to-do list. Simply type in your to-do in the input box. As the workday progresses, you can see the orange colored current hour indicator move down the list.",
     "image": "../img/interactive-calendar.png",
     "link": "https://aosiol.github.io/Interactive-Calendar/",
